@@ -7,8 +7,33 @@
     <title>Document</title>
 </head>
 <body>
+    ><form method="post" action="">
+Naam: <input type="text" name="naam" placeholder="Uw naam" required>
+<br>
+Land: <select name:"land">
+        <option value="NL">Nederland</option>
+        <option value="DE">Duitsland</option>
+        <option value="EN">Engeland</option>
+</select>
+<br>
+
+<input type="submit" value="Gegevens versturen" />
+
+
+
+
+    </form>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <?php
-        phpinfo();
         ?>
     
 </body>
